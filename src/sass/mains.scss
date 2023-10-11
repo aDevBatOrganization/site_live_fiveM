@@ -1,0 +1,17 @@
+// fichier sass du dossier pages
+
+@import './pages/index';
+
+// fichier sass du dossier modules
+
+@import './modules/variables';
+@import './modules/reset';
+@import './modules/utils';
+@import './modules/media-queries';
+@import './modules/base';
+@import './modules/classes';
+
+// fichier sass du dossier components 
+
+@import './modules/compomnents/header';
+@import './modules/compomnents/footer';

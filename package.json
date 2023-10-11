@@ -1,0 +1,31 @@
+{
+  "name": "site_live_fivem",
+  "version": "1.0.0",
+  "description": "Application web contenant tous le necessaires pour gerer votre server FiveM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w src/sass -o dist/css",
+    "babel": "babel src/js --out-dir dist/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aDevBatOrganization/site_live_fiveM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aDevBatOrganization/site_live_fiveM/issues"
+  },
+  "homepage": "https://github.com/aDevBatOrganization/site_live_fiveM#readme",
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.2",
+    "babel-loader": "^9.1.3",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.2",
+    "sass-loader": "^13.3.2"
+  }
+}
